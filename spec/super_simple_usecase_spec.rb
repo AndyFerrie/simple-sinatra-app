@@ -4,7 +4,7 @@ describe SuperSimpleUsecase do
   let(:use_case) { described_class.new }
 
   context 'given url is localhost' do
-    it 'returns Deploy me to Heroku!' do
+    it 'returns Deploy me to Heroku!!' do
       expect(use_case.execute('http://localhost:1234')).to eq('Deploy me to Heroku, please!')
     end
   end
